@@ -1,0 +1,2 @@
+Mastodon.py==1.2.2
+pyowm==2.8.0

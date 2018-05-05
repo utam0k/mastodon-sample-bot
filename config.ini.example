@@ -1,0 +1,7 @@
+[Mastodon]
+API_BASE_URL=https://friends.nico
+EMAIL=utam0k@example.com
+PASS_WORD=password
+APP_NAME=IzuminBot
+[OWM]
+API_KEY=api_key
