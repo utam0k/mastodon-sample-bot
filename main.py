@@ -7,7 +7,7 @@ import configparser
 import os
 
 from mastodon import Mastodon, StreamListener
-import pyowm
+# import pyowm
 
 def convert_weather_word(weather):
     if weather in weather_phrases.keys():
@@ -81,7 +81,7 @@ if __name__ == '__main__':
     config = configparser.ConfigParser()
     config.read('config.ini')
 
-    owm = pyowm.OWM(config['OWM']['API_KEY']) 
+    # owm = pyowm.OWM(config['OWM']['API_KEY']) 
 
     mastodon = init(config)
 
