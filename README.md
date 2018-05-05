@@ -3,7 +3,7 @@
 ## 動かし方
 
 ```
-git clone https://githun.com/utam0k/mastodon-sample-bot.git && cd mastodon-sample-bot
+git clone https://github.com/utam0k/mastodon-sample-bot.git && cd mastodon-sample-bot
 pip install -r requirements.txt
 cp config.ini.example config.ini
 ```
